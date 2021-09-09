@@ -1,10 +1,4 @@
-#def get_vat(payment):
-#    vat = payment / 100 * 18
-#    return vat
-#    print(vat)
-#get_vat(100)
-
-def get_vat(payment, percent=18):
+def get_vat(payment, percent=19):
     try:
         payment = float(payment)
         percent = int(percent)

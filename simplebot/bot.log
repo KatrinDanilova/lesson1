@@ -1,0 +1,89 @@
+﻿root - INFO - Bot started...
+apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 15:37:54,433 - root - INFO - Bot started...
+2021-09-13 15:37:54,433 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:06:07,049 - root - INFO - Bot started...
+2021-09-13 16:06:07,054 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:08:14,129 - root - INFO - Bot started...
+2021-09-13 16:08:14,133 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:09:26,072 - root - INFO - Bot started...
+2021-09-13 16:09:26,079 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:09:29,133 - root - INFO - jgjhgj
+2021-09-13 16:41:57,964 - root - INFO - Привет бот!
+
+Как дела?
+2021-09-13 16:44:45,203 - root - INFO - привет
+2021-09-13 16:52:10,263 - root - INFO - Bot started...
+2021-09-13 16:52:10,267 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:52:10,963 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-13 16:52:10,963 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-13 16:52:10,963 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-13 16:52:11,605 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-13 16:52:20,069 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
+2021-09-13 16:56:05,673 - root - INFO - Bot started...
+2021-09-13 16:56:05,673 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 16:56:17,771 - root - INFO - b'\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb5\xd1\x82'
+2021-09-13 16:59:05,258 - root - INFO - b'\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb5\xd1\x82!\n\n\xd0\xba\xd0\xb0\xd0\xba \xd0\xb4\xd0\xb5\xd0\xbb\xd0\xb0?'
+2021-09-13 17:13:31,623 - root - INFO - Bot started...
+2021-09-13 17:13:31,627 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 17:13:45,520 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 26, in chat
+    logging.info(mytext.encode('ascii'))
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
+2021-09-13 17:22:35,238 - root - INFO - Bot started...
+2021-09-13 17:22:35,243 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 17:22:40,751 - root - INFO - b'\xd0\xbf\xd1\x80\xd0\xb8\xd0\xb2\xd0\xb5\xd1\x82'
+2021-09-13 17:23:03,204 - root - INFO - Bot started...
+2021-09-13 17:23:03,206 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 17:23:06,970 - root - INFO - ??????
+2021-09-13 17:26:19,237 - root - INFO - Bot started...
+2021-09-13 17:26:19,242 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 17:26:42,509 - root - INFO - ??????
+2021-09-13 17:33:47,013 - root - INFO - Bot started...
+2021-09-13 17:33:47,018 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-13 17:33:51,939 - root - INFO - ������

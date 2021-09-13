@@ -1,7 +1,7 @@
 #from telegram.ext import Updater
 #from telegram.ext import CommandHandler
 
-import logging, os
+import logging, os, sys, locale
 from telegram import Update
 from telegram.ext import Updater, CallbackContext, CommandHandler, MessageHandler, Filters
 
@@ -20,6 +20,10 @@ def start_bot(update: Update, context: CallbackContext):
     """
     update.message.reply_text(mytext)
     #print(update) #список полей update
+    print(sys.getdefaultencoding())
+    print(locale.getpreferredencoding())
+    print(sys.stdout)
+    print(sys.stderr)
 
 def chat(update: Update, context: CallbackContext):
     mytext = update.message.text

@@ -17,16 +17,14 @@ logging.basicConfig(
 
 def start_bot(update: Update, context: CallbackContext):
     myuser = update.message.chat.first_name
-    mytext = f"""Привет {myuser}!
- 
-Я простой бот и понимаю только команду /start
-    """
+    mytext = f"""Привет {myuser}! Я простой бот и понимаю только команду /start"""
+    logging.info(f"Пользователь {update.message.chat.username} нажал /start")
     update.message.reply_text(mytext)
     #print(update) #список полей update
-    print(sys.getdefaultencoding())
-    print(locale.getpreferredencoding())
-    print(sys.stdout)
-    print(sys.stderr)
+    #print(sys.getdefaultencoding())
+    #print(locale.getpreferredencoding())
+    #print(sys.stdout)
+    #print(sys.stderr)
 
 def chat(update: Update, context: CallbackContext):
     mytext = update.message.text

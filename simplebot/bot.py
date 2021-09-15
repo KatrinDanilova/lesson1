@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
 #from telegram.ext import Updater
 #from telegram.ext import CommandHandler
+
 
 import logging, os, sys, locale
 from telegram import Update
 from telegram.ext import Updater, CallbackContext, CommandHandler, MessageHandler, Filters
+import settings
 
 path = 'd:\Python\learn1\simplebot'
 logging.basicConfig(
@@ -27,18 +30,17 @@ def start_bot(update: Update, context: CallbackContext):
 
 def chat(update: Update, context: CallbackContext):
     mytext = update.message.text
-    logging.info(mytext)
+    print(mytext) # идет русский текст
+    logging.info(b'%s'.decode('utf-8') % (mytext)) # в этом месте идет неправильное логирование
     update.message.reply_text(mytext)
 
-
 def main():
-    updtr = Updater('1962228157:AAFEnQahitcgf3WyttR3ZpdUiBLWLQtU0WY', use_context=True)
+    updtr = Updater(settings.TELEGRAM_API_KEY, use_context=True)
     updtr.dispatcher.add_handler(CommandHandler("start", start_bot))
     updtr.dispatcher.add_handler(MessageHandler(Filters.text, chat))
 
     updtr.start_polling()
     updtr.idle()
-
 
 if __name__ == "__main__":
     logging.info('Bot started...')

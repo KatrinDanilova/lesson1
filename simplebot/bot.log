@@ -884,3 +884,91 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2021-09-15 10:04:19,186 - root - INFO - Bot started...
 2021-09-15 10:04:19,191 - apscheduler.scheduler - INFO - Scheduler started
 2021-09-15 10:04:24,755 - root - INFO - Пользователь danilova_kate нажал /start
+2021-09-17 17:13:16,742 - root - INFO - Bot started...
+2021-09-17 17:13:16,844 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:13:33,645 - root - INFO - /planet
+2021-09-17 17:14:47,953 - root - INFO - Bot started...
+2021-09-17 17:15:12,699 - root - INFO - Bot started...
+2021-09-17 17:15:12,703 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:15:22,740 - root - INFO - Venus
+2021-09-17 17:18:34,656 - root - INFO - Bot started...
+2021-09-17 17:18:34,672 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:18:41,979 - root - INFO - Venus
+2021-09-17 17:20:13,433 - root - INFO - Bot started...
+2021-09-17 17:20:13,438 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:20:19,276 - root - INFO - Venus
+2021-09-17 17:21:43,647 - root - INFO - Bot started...
+2021-09-17 17:21:43,651 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:21:46,148 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 37, in planet_bot
+    planet = ephem.myplanet(datetime.date.today())
+AttributeError: module 'ephem' has no attribute 'myplanet'
+2021-09-17 17:22:49,844 - root - INFO - Bot started...
+2021-09-17 17:22:49,844 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:22:54,068 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 37, in planet_bot
+    planet = ephem.myplanet(datetime.date.today())
+AttributeError: module 'ephem' has no attribute 'myplanet'
+2021-09-17 17:23:38,922 - root - INFO - Bot started...
+2021-09-17 17:23:38,922 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:23:43,884 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 37, in planet_bot
+    planet = ephem.myplanet(datetime.date.today())
+AttributeError: module 'ephem' has no attribute 'myplanet'
+2021-09-17 17:23:49,805 - root - INFO - Пользователь danilova_kate нажал /start
+2021-09-17 17:23:55,928 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 37, in planet_bot
+    planet = ephem.myplanet(datetime.date.today())
+AttributeError: module 'ephem' has no attribute 'myplanet'
+2021-09-17 17:24:31,958 - root - INFO - Bot started...
+2021-09-17 17:24:31,959 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:25:10,081 - root - INFO - Bot started...
+2021-09-17 17:25:10,085 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-17 17:25:17,476 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\telegram\ext\handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "d:\Python\learn1\simplebot\bot.py", line 37, in planet_bot
+    planet = ephem.myplanet(datetime.date.today())
+AttributeError: module 'ephem' has no attribute 'myplanet'
+2021-09-20 15:25:41,831 - root - INFO - Bot started...
+2021-09-20 15:25:41,831 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:26:41,112 - root - INFO - Bot started...
+2021-09-20 15:26:41,112 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:29:24,753 - root - INFO - Bot started...
+2021-09-20 15:29:24,753 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:29:41,165 - root - INFO - Bot started...
+2021-09-20 15:29:41,166 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:33:46,126 - root - INFO - Bot started...
+2021-09-20 15:33:46,127 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:35:54,967 - root - INFO - Bot started...
+2021-09-20 15:35:54,969 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:36:06,345 - root - INFO - ghbdtm
+2021-09-20 15:37:56,380 - root - INFO - Пользователь danilova_kate нажал /start
+2021-09-20 15:38:33,393 - root - INFO - Bot started...
+2021-09-20 15:38:33,394 - apscheduler.scheduler - INFO - Scheduler started
+2021-09-20 15:38:44,606 - root - INFO - Пользователь danilova_kate нажал /start
+2021-09-20 15:38:54,848 - root - INFO - Mars
+2021-09-20 15:39:16,173 - root - INFO - привет
